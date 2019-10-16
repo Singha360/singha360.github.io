@@ -21,8 +21,6 @@ body {
 	color: #2e1263;
 	font-family: "Source Code Pro", monospace;
 	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: subpixel-antialiased;
-	font-synthesis: subpixel-antialiased;
 	font-weight: 200;
 }
 
