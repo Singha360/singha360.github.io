@@ -2,61 +2,61 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200&display=swap");
 
 button::-moz-focus-inner {
-  border: 0;
+	border: 0;
 }
 
 button:focus {
-  outline: 0;
+	outline: 0;
 }
 
 h1 {
-  font-weight: 200;
-  font-size: 70px;
-  text-transform: uppercase;
-  border-top: 5px solid;
+	font-weight: 200;
+	font-size: 70px;
+	text-transform: uppercase;
+	border-top: 5px solid;
 }
 
 body {
-  background-color: #f69680;
-  color: #2e1263;
-  font-family: "Source Code Pro", monospace;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-synthesis: subpixel-antialiased;
-  font-weight: 200;
+	background-color: #f69680;
+	color: #2e1263;
+	font-family: "Source Code Pro", monospace;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-synthesis: subpixel-antialiased;
+	font-weight: 200;
 }
 
 img {
-  border-radius: 50%;
-  height: 500px;
+	border-radius: 50%;
+	height: 500px;
 }
 
 #container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
 }
 
 button {
-  font-size: 13px;
-  background-color: #f69680;
-  border: 1px solid;
-  color: #2e1263;
-  padding: 25px 30px;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: inline-block;
-  margin: 30px auto 0;
-  cursor: pointer;
-  border-radius: 5px;
+	font-size: 13px;
+	background-color: #f69680;
+	border: 1px solid;
+	color: #2e1263;
+	padding: 25px 30px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 30px auto 0;
+	cursor: pointer;
+	border-radius: 5px;
 }
 
 button:hover {
-  transition: 0.05s;
-  background-color: #2e1263;
-  color: #f69680;
-  font-weight: bold;
+	transition: 0.05s;
+	background-color: #2e1263;
+	color: #f69680;
+	font-weight: bold;
 }
