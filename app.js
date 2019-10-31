@@ -14,7 +14,7 @@ var btn = document.querySelector("button");
 var img = document.querySelector("img");
 var counter = 1;
 
-btn.addEventListener("click", function() {
+btn.addEventListener("click", function () {
   if (counter === 8) {
     counter = 0;
   }
