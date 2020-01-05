@@ -186,7 +186,7 @@ a.cta {
   }
 }
 
-a.cta:hover {
+a.cta:active {
   -webkit-transform: translateY(5px);
           transform: translateY(5px);
   -webkit-box-shadow: none;
