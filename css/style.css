@@ -68,6 +68,7 @@ footer > a {
   margin-right: 16px;
   color: white;
   font-size: larger;
+  -webkit-tap-highlight-color: transparent;
 }
 
 footer > a:first-child {
