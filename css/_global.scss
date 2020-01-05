@@ -22,6 +22,10 @@ a:visited {
     cursor: pointer;
 }
 
+a:active {
+    -webkit-tap-highlight-color: transparent;
+}
+
 header {
     margin-bottom: 50px;
 

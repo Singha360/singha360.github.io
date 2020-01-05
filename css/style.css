@@ -23,6 +23,10 @@ a:visited {
   cursor: pointer;
 }
 
+a:active {
+  -webkit-tap-highlight-color: transparent;
+}
+
 header {
   margin-bottom: 50px;
 }
@@ -197,6 +201,5 @@ a.cta:active {
           transform: translateY(5px);
   -webkit-box-shadow: none;
           box-shadow: none;
-  -webkit-tap-highlight-color: transparent;
 }
 /*# sourceMappingURL=style.css.map */
