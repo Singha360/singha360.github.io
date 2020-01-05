@@ -20,6 +20,7 @@ body {
 a,
 a:visited {
   text-decoration: none;
+  cursor: pointer;
 }
 
 header {
@@ -179,6 +180,10 @@ a.cta {
   -webkit-transition: all 100ms ease-in-out;
   transition: all 100ms ease-in-out;
   outline: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media screen and (min-width: 1024px) {
